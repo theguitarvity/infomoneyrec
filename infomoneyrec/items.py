@@ -20,3 +20,4 @@ class InfomoneyrecItem(scrapy.Item):
     url = scrapy.Field()
     main_url = scrapy.Field()
     other_url = scrapy.Field()
+    id_elastic_index = scrapy.Field()
